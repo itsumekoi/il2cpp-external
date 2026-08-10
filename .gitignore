@@ -1,0 +1,36 @@
+# build output
+bin/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# visual studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# compiler / linker artifacts
+*.obj
+*.iobj
+*.ipdb
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.tlog
+*.log
+*.recipe
+
+# editor backups
+*.bak
+*.orig
+*~

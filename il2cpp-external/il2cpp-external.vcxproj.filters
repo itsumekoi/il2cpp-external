@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{59753640-f934-455e-b10c-b2ebb5b26a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\emulator">
+      <UniqueIdentifier>{88c71958-97cd-4a03-8af5-a537453e7a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\emulator\instructions">
+      <UniqueIdentifier>{8c4476e4-6bbe-42c3-aaeb-ae73b3feb06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\memory">
+      <UniqueIdentifier>{45ea8b5b-a6a2-45c7-a0b5-4f838cdf541b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\il2cpp">
+      <UniqueIdentifier>{3ed30233-b1d5-42da-ab51-9f2cdf87ac65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\emulator\decoder.hpp">
+      <Filter>source\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\emulator.hpp">
+      <Filter>source\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\extcall.hpp">
+      <Filter>source\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\handler.hpp">
+      <Filter>source\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\state.hpp">
+      <Filter>source\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\types.hpp">
+      <Filter>source\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\instructions\arithmetic.hpp">
+      <Filter>source\emulator\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\instructions\avx.hpp">
+      <Filter>source\emulator\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\instructions\floating.hpp">
+      <Filter>source\emulator\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\instructions\flow.hpp">
+      <Filter>source\emulator\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\emulator\instructions\movement.hpp">
+      <Filter>source\emulator\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\memory\memory.hpp">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\il2cpp\handler.hpp">
+      <Filter>source\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="source\imports.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
